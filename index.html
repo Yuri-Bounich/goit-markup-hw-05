@@ -25,7 +25,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
@@ -486,29 +486,27 @@
         <div class="subscribe-footer">
           <p class="subscribe-footer-text">Subscribe</p>
           <form class="footer-form">
-            <div class="footer-form-wrap">
-              <label for="" aria-label="email"></label>
-              <input
-                type="email"
-                name="footer-email"
-                id="footer-email"
-                class="footer-input"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="footer-btn">
-                Subscribe
-                <svg class="footer-btn-icon" width="24" height="20">
-                  <use href="./images/icons.svg#icon-subscribe"></use>
-                </svg>
-              </button>
-            </div>
+            <label for="" aria-label="email" class="footer-label"></label>
+            <input
+              type="email"
+              name="footer-email"
+              id="footer-email"
+              class="footer-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
     <div class="backdrop">
       <div class="modal">
-        <button class="modal-close">
+        <button type="button" class="modal-close">
           <svg class="modal-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
@@ -563,7 +561,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-conteiner">
+          <div class="modal-conteiner modal-conteiner-four">
             <label for="user-comment" class="label-input">Comment</label>
             <textarea
               name="user-comment"
@@ -572,16 +570,16 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-conteiner">
+          <div class="modal-conteiner modal-conteiner-chek">
             <input
               type="checkbox"
-              name="polisy"
-              id="polisy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               class="modal-chek visually-hidden"
             />
-            <label for="polisy" class="modal-chek-text"
-              ><span>
+            <label for="user-privacy" class="modal-chek-text"
+              ><span class="user-privacy-vector">
                 <svg class="modal-vector" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg> </span
