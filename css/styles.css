@@ -783,9 +783,6 @@ color: #8e8f99;
 display: flex;
 align-items: center;}
 
-.user-privacy-vector{
-
-}
 
 .modal-chek-text span{
         border-radius: 2px;
@@ -813,4 +810,8 @@ align-items: center;}
                 text-decoration: underline;
                 text-decoration-skip-ink: none;
                 color: #4d5ae5;
+}
+
+.user-privacy-vector{
+        
 }
