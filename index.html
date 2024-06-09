@@ -483,13 +483,38 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-footer">
+          <p class="subscribe-footer-text">Subscribe</p>
+          <form class="footer-form">
+            <div class="footer-form-wrap">
+              <label for="" aria-label="email"></label>
+              <input
+                type="email"
+                name="footer-email"
+                id="footer-email"
+                class="footer-input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="footer-btn">
+                <div class="footer-icon-container">
+                  Subscribe
+                  <span class="footer-submit-icon">
+                    <svg class="footer-btn-icon" width="24" height="20">
+                      <use href="./images/icons.svg#icon-subscribe"></use>
+                    </svg>
+                  </span>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop">
       <div class="modal">
         <button class="modal-close">
           <svg class="modal-icon" width="8" height="8">
-            <use href="./images/icons-d.svg#icon-modal-close"></use>
+            <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -506,7 +531,7 @@
                 id="user-name"
               />
               <svg class="input-icon" width="18" height="24">
-                <use href="./images/icons-d.svg#icon-person"></use>
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
@@ -522,7 +547,7 @@
                 id="user-phone"
               />
               <svg class="input-icon" width="18" height="24">
-                <use href="./images/icons-d.svg#icon-phone"></use>
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
@@ -538,7 +563,7 @@
                 id="user-email"
               />
               <svg class="input-icon" width="18" height="24">
-                <use href="./images/icons-d.svg#icon-email"></use>
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
@@ -557,11 +582,17 @@
               name="polisy"
               id="polisy"
               value="true"
-              class="modal-chek"
+              class="modal-chek visually-hidden"
             />
             <label for="polisy" class="modal-chek-text"
-              ><span></span>I accept the terms and conditions of the Privacy
-              Policy</label
+              ><span>
+                <svg class="modal-vector" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="Privacy-Policy" href="./index.html">
+                Privacy Policy</a
+              ></label
             >
           </div>
           <button type="submit" class="modal-btn">Send</button>
