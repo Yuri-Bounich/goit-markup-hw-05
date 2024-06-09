@@ -605,9 +605,9 @@ margin-left: 16px;
         background-color: rgba(46, 47, 66, 0.4);
         position: fixed;
         top: 0;
-        /* opacity: 0;
+        opacity: 0;
         visibility: hidden;
-        pointer-events: none; */
+        pointer-events: none;
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -791,7 +791,7 @@ align-items: center;}
         height: 16px;
         display: inline-flex;
         margin-right: 8px;
-        display: flex;
+        display: inline-flex;
         align-items: center;
         justify-content: center;
         fill: transparent;
@@ -805,13 +805,9 @@ align-items: center;}
 }
 .modal-conteiner-four{margin-bottom: 16px;}
 
-.Privacy-Policy{
+.privacy-policy{
         margin-left: 2px;
                 text-decoration: underline;
                 text-decoration-skip-ink: none;
                 color: #4d5ae5;
-}
-
-.user-privacy-vector{
-        
 }
